@@ -26,7 +26,7 @@ people.random   <- sample(people)
 journals.random <- sample(journals)
 
 ## Feature not a bug: R auto-fills table until there is no more space
-## ignore the warning
+message("Ignore the warning - its ok!")
 assignments <- matrix(data     = people.random,
                       nrow     = length(journals),
                       ncol     = 2,
