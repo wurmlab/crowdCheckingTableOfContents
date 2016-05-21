@@ -22,8 +22,9 @@ journals <- unlist(strsplit(x     = journals.raw,
 
 
 ## Assign 2 people per journal - in a manner that equalises efforts
-people.random   <- sample(people)
 journals.random <- sample(journals)
+people.random   <- c(rep(sample(people), times=2), sample(people)) 
+                   ## ugly ugly hack to randomize order while using autofilling bug
 
 ## Feature not a bug: R auto-fills table until there is no more space
 message("Ignore the warning - its ok!")
@@ -37,6 +38,10 @@ assignments <- matrix(data     = people.random,
 ##sanity check:
 if (anyDuplicated(paste(row.names(assignments), assignments))) {
    stop("DUPLICATE ASSIGNMENTS") 
+}
+if (any(assignments[,'person1'] == assignments[,'person2'])) {
+   stop("OOPS - SAME JOURNAL GIVEN TO 2 DIFFERENT PEOPLE -", 
+        "Try again you might get lucky")
 }
 
 write(x = kable(assignments, format="markdown"), file= output.file)
