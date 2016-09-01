@@ -1,6 +1,6 @@
 people.raw <- "Priyam, Bruno, Roddy, Emeline, Yannick, Ilya, Ismail, Leandro,
-               Joe, Carlos, Eckart, Diego, Karina"
-                          
+               Joe, Carlos, Eckart, Karina"
+
 journals.raw <- "Mol Ecol, Plos Genet, PNAS, Science, Nature, Nature Genetics,
                  Plos Biol, Plos Comp Biol, eLife, Insectes Sociaux, MBE, Cell,
                  Proc B, Myrmecological News, Bioinformatics, Current Biology,
@@ -23,7 +23,7 @@ journals <- unlist(strsplit(x     = journals.raw,
 
 ## Assign 2 people per journal - in a manner that equalises efforts
 journals.random <- sample(journals)
-people.random   <- c(rep(sample(people), times=2), sample(people)) 
+people.random   <- c(rep(sample(people), times=2), sample(people))
                    ## ugly ugly hack to randomize order while using autofilling bug
 
 ## Feature not a bug: R auto-fills table until there is no more space
@@ -37,17 +37,17 @@ assignments <- matrix(data     = people.random,
 
 ##sanity check:
 if (anyDuplicated(paste(row.names(assignments), assignments))) {
-   stop("DUPLICATE ASSIGNMENTS") 
+   stop("DUPLICATE ASSIGNMENTS")
 }
 if (any(assignments[,'person1'] == assignments[,'person2'])) {
-   stop("OOPS - SAME JOURNAL GIVEN TO 2 DIFFERENT PEOPLE -", 
+   stop("OOPS - SAME JOURNAL GIVEN TO 2 DIFFERENT PEOPLE -",
         "Try again you might get lucky")
 }
 
 write(x = kable(assignments, format="markdown"), file= output.file)
 write(x = "\n\n\n",                              file= output.file, append=TRUE)
 
-## show assignments per person: 
+## show assignments per person:
 assignments.long <- melt(assignments)
 colnames(assignments.long) <- c("journal", "number", "person")
 
@@ -60,4 +60,3 @@ assignments.perperson <- dcast(data       = assignments.long,
 write(x      = kable(assignments.perperson, format="markdown"),
       file   = output.file,
       append = TRUE)
-
