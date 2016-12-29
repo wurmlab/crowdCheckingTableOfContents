@@ -5,7 +5,8 @@ journals.raw <- "Mol Ecol, Plos Genet, PNAS, Science, Nature, Nature Genetics,
                  Plos Biol, Plos Comp Biol, eLife, Insectes Sociaux, MBE, Cell,
                  Proc B, Myrmecological News, Bioinformatics, Current Biology,
                  Trends in Genetics, TREE, Genome Res, Genome Biol, Am Nat,
-                 Evolution, Journal of Evolutionary Biology, Nature Comms, GBE"
+                 Evolution, Journal of Evolutionary Biology, Nature Comms,
+                 GBE, Nature Methods"
 
 library(reshape2)
 library(knitr)
