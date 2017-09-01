@@ -1,5 +1,7 @@
+Edit [the Index #2017-09 here](https://docs.google.com/document/d/1kxPK6TpehQLGFsMh7aKhud5J9iC6si3eof4NycYjd00/edit?usp=sharing)
+
 people.raw <- "Priyam, Bruno, Roddy, Emeline, Yannick, Leandro,
-               Joe, Carlos, Gino, Abdoulie, Lawrence"
+               Joe, Carlos, Lawrence"
 
 journals.raw <- "Mol Ecol, Plos Genet, PNAS, Science, Nature, Nature Genetics,
                  Plos Biol, Plos Comp Biol, eLife, Insectes Sociaux, MBE, Cell,
