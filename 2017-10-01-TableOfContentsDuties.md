@@ -2,43 +2,44 @@ Edit [the Index #2017-10 here](https://docs.google.com/document/d/1yAylwiyA1GZjs
 
 |                                |person1  |person2  |
 |:-------------------------------|:--------|:--------|
-|Am Nat                          |Leandro  |Priyam   |
-|Plos Biol                       |Yannick  |Bruno    |
-|Current Biology                 |Bruno    |Leandro  |
-|Genome Biol                     |Carlos   |Yannick  |
-|Insectes Sociaux                |Lawrence |Bruno    |
-|Evolution                       |Priyam   |Carlos   |
-|eLife                           |Joe      |Lawrence |
-|Trends in Genetics              |Roddy    |Priyam   |
-|PNAS                            |Emeline  |Joe      |
-|Nature Genetics                 |Leandro  |Roddy    |
-|MBE                             |Yannick  |Emeline  |
-|Plos Genet                      |Bruno    |Leandro  |
-|Plos Comp Biol                  |Carlos   |Yannick  |
-|TREE                            |Lawrence |Bruno    |
-|Nature Comms                    |Priyam   |Carlos   |
-|Science                         |Joe      |Lawrence |
-|Journal of Evolutionary Biology |Roddy    |Priyam   |
-|Bioinformatics                  |Emeline  |Joe      |
-|Proc B                          |Leandro  |Roddy    |
-|Genome Res                      |Roddy    |Emeline  |
-|Myrmecological News             |Yannick  |Leandro  |
-|GBE                             |Carlos   |Roddy    |
-|Nature                          |Lawrence |Yannick  |
-|Mol Ecol                        |Joe      |Carlos   |
-|Cell                            |Emeline  |Lawrence |
+|Genome Res                      |Bruno    |Priyam   |
+|Bioinformatics                  |Carlos   |Lawrence |
+|PNAS                            |Priyam   |Joe      |
+|Nature Comms                    |Joe      |Bruno    |
+|Current Biology                 |Leandro  |Gino     |
+|eLife                           |Emeline  |Bruno    |
+|Genome Biol                     |Gino     |Carlos   |
+|MBE                             |Roddy    |Priyam   |
+|Cell                            |Yannick  |Joe      |
+|Am Nat                          |Lawrence |Leandro  |
+|Nature                          |Bruno    |Emeline  |
+|GBE                             |Carlos   |Gino     |
+|Proc B                          |Priyam   |Roddy    |
+|Mol Ecol                        |Joe      |Yannick  |
+|Science                         |Leandro  |Lawrence |
+|Plos Comp Biol                  |Emeline  |Bruno    |
+|Journal of Evolutionary Biology |Gino     |Carlos   |
+|Insectes Sociaux                |Roddy    |Priyam   |
+|Trends in Genetics              |Yannick  |Joe      |
+|Nature Genetics                 |Lawrence |Leandro  |
+|Evolution                       |Yannick  |Emeline  |
+|TREE                            |Leandro  |Gino     |
+|Plos Genet                      |Emeline  |Roddy    |
+|Myrmecological News             |Roddy    |Yannick  |
+|Plos Biol                       |Carlos   |Lawrence |
 
 
 
 
-|person   |journal                                                                                       |
-|:--------|:---------------------------------------------------------------------------------------------|
-|Bruno    |Current Biology, Plos Genet, Plos Biol, Insectes Sociaux, TREE                                |
-|Carlos   |Genome Biol, Plos Comp Biol, GBE, Evolution, Nature Comms, Mol Ecol                           |
-|Emeline  |PNAS, Bioinformatics, Cell, MBE, Genome Res                                                   |
-|Joe      |eLife, Science, Mol Ecol, PNAS, Bioinformatics                                                |
-|Lawrence |Insectes Sociaux, TREE, Nature, eLife, Science, Cell                                          |
-|Leandro  |Am Nat, Nature Genetics, Proc B, Current Biology, Plos Genet, Myrmecological News             |
-|Priyam   |Evolution, Nature Comms, Am Nat, Trends in Genetics, Journal of Evolutionary Biology          |
-|Roddy    |Trends in Genetics, Journal of Evolutionary Biology, Genome Res, Nature Genetics, Proc B, GBE |
-|Yannick  |Plos Biol, MBE, Myrmecological News, Genome Biol, Plos Comp Biol, Nature                      |
+|person   |journal                                                                      |
+|:--------|:----------------------------------------------------------------------------|
+|Bruno    |Genome Res, Nature, Nature Comms, eLife, Plos Comp Biol                      |
+|Carlos   |Bioinformatics, GBE, Plos Biol, Genome Biol, Journal of Evolutionary Biology |
+|Emeline  |eLife, Plos Comp Biol, Plos Genet, Nature, Evolution                         |
+|Gino     |Genome Biol, Journal of Evolutionary Biology, Current Biology, GBE, TREE     |
+|Joe      |Nature Comms, Mol Ecol, PNAS, Cell, Trends in Genetics                       |
+|Lawrence |Am Nat, Nature Genetics, Bioinformatics, Science, Plos Biol                  |
+|Leandro  |Current Biology, Science, TREE, Am Nat, Nature Genetics                      |
+|Priyam   |PNAS, Proc B, Genome Res, MBE, Insectes Sociaux                              |
+|Roddy    |MBE, Insectes Sociaux, Myrmecological News, Proc B, Plos Genet               |
+|Yannick  |Cell, Trends in Genetics, Evolution, Mol Ecol, Myrmecological News           |
