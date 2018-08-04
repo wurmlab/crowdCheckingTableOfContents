@@ -1,4 +1,4 @@
-Edit [the Index #2018-08 here]()
+Edit [the Index #2018-08 here](https://docs.google.com/document/d/1SUi7xPmpNuGtgeyZLZiVLe2kT2pSUnsO5h6aUpjvGE0/edit?usp=sharing)
 
 
 |                                |person1   |person2   |
