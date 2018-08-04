@@ -1,6 +1,6 @@
 
 
-people.raw <- "Priyam, Emeline, Yannick, Leandro, Carlos, Esteban, Magdalena, Raphaella"
+people.raw <- "Priyam, Emeline, Yannick, Leandro, Carlos, Magdalena"
 
 journals.raw <- "Mol Ecol, Plos Genet, PNAS, Science, Nature, Nature Genetics,
                  Plos Biol, Plos Comp Biol, eLife, Insectes Sociaux, MBE, Cell,
