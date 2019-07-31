@@ -50,8 +50,8 @@ if (any(assignments[,'person1'] == assignments[,'person2'])) {
 }
 
 file.create(output.file)
-
-write(x = kable(assignments, format="markdown"), file = output.file)
+write(x = "JOURNALS TO READ THIS MONTH", file = output.file, append = TRUE)
+write(x = kable(assignments, format="markdown"), file = output.file, append = TRUE)
 write(x = "\n\n\n",                              file = output.file, append = TRUE)
 
 ## show assignments per person:
@@ -68,3 +68,34 @@ assignments.perperson <- dcast(data       = assignments.long,
 write(x      = kable(assignments.perperson, format = "markdown"),
       file   = output.file,
       append = TRUE)
+
+write(x = "\n\n\n",                              file = output.file, append = TRUE)
+
+## CODING PAIRS CODE
+
+#Randomise the names vector at each run
+pair.people <- sample(people)
+
+#Generation of the matrix with the pairs
+
+message("For odd numbers of people there will be an ignorable warning")
+
+codingpairs <- matrix(data     = pair.people,
+                      nrow     = ceiling(length(pair.people)/2),
+                      ncol     = 2
+)
+
+colnames(codingpairs) <- c('person1', 'person2')
+
+# 'If' introducing a group of three if the number of persons participating is uneven
+if (length(pair.people) %% 2 != 0) {
+  codingpairs[nrow(codingpairs), 2] <- paste(codingpairs[nrow(codingpairs) - 1, 1], "and", codingpairs[nrow(codingpairs) - 1, 2])
+  codingpairs <-  codingpairs[-(nrow(codingpairs) - 1), ]
+}
+
+
+
+#Output the .md file
+write(x = "CODING PAIRS", file = output.file, append = TRUE)
+write(x = kable(codingpairs, format = "markdown"), file = output.file, append = TRUE)
+write(x = "\n\n\n",                              file = output.file, append = TRUE)
