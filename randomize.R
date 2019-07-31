@@ -22,10 +22,13 @@ journals <- unlist(strsplit(x     = journals.raw,
                             perl  = TRUE
                             ))
 
+quotient <- (length(journals)*2) %/% length(people)
+remainder <- (length(journals)*2) %% length(people)
+
 
 ## Assign 2 people per journal - in a manner that equalises efforts
 journals.random <- sample(journals)
-people.random   <- c(rep(sample(people), times=2), sample(people))
+people.random   <- c(sample(rep(people, times = quotient)), sample(people, remainder))
                    ## ugly ugly hack to randomize order while using autofilling bug
 
 ## Feature not a bug: R auto-fills table until there is no more space
@@ -46,6 +49,8 @@ if (any(assignments[,'person1'] == assignments[,'person2'])) {
         "Try again you might get lucky")
 }
 
+file.create(output.file)
+
 write(x = kable(assignments, format="markdown"), file= output.file)
 write(x = "\n\n\n",                              file= output.file, append=TRUE)
 
@@ -59,6 +64,8 @@ assignments.perperson <- dcast(data       = assignments.long,
                              fun.aggregate=function(x) {paste(x, collapse=", ")}
                              )
 
+
 write(x      = kable(assignments.perperson, format="markdown"),
       file   = output.file,
       append = TRUE)
+
