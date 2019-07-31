@@ -51,6 +51,7 @@ if (any(assignments[,'person1'] == assignments[,'person2'])) {
 
 file.create(output.file)
 write(x = "Journal Assignments", file = output.file, append = TRUE)
+write(x = "\n\n\n",                              file = output.file, append = TRUE)
 write(x = kable(assignments, format="markdown"), file = output.file, append = TRUE)
 write(x = "\n\n\n",                              file = output.file, append = TRUE)
 
@@ -97,5 +98,6 @@ if (length(pair.people) %% 2 != 0) {
 
 #Output the .md file
 write(x = "Coding Pairs", file = output.file, append = TRUE)
+write(x = "\n\n\n",                              file = output.file, append = TRUE)
 write(x = kable(codingpairs, format = "markdown"), file = output.file, append = TRUE)
 write(x = "\n\n\n",                              file = output.file, append = TRUE)
