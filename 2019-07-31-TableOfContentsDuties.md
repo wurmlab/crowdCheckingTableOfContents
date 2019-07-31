@@ -1,47 +1,65 @@
+Journal Assignments
 |                                |person1   |person2   |
 |:-------------------------------|:---------|:---------|
-|Plos Genet                      |Emeline   |Raphaella |
-|MBE                             |Iwo       |Emeline   |
-|Nature Genetics                 |Carlos    |Catherine |
-|eLife                           |Valentine |Marian    |
-|Science                         |Catherine |Anindita  |
-|Evolution                       |Raphaella |Yannick   |
-|Current Biology                 |Priyam    |Yannick   |
-|Insectes Sociaux                |Federico  |Catherine |
-|PNAS                            |Marian    |Richard   |
-|Trends in Genetics              |Priyam    |Magdalena |
-|Nature Comms                    |Priyam    |Iwo       |
-|Bioinformatics                  |Magdalena |Iwo       |
-|Plos Comp Biol                  |Emeline   |Marian    |
-|Genome Biol                     |Valentine |Richard   |
-|Genome Res                      |Raphaella |Anindita  |
-|TREE                            |Carlos    |Yannick   |
-|Mol Ecol                        |Richard   |Valentine |
-|GBE                             |Anindita  |Priyam    |
-|Plos Biol                       |Federico  |Iwo       |
-|Nature                          |Marian    |Anindita  |
-|Am Nat                          |Valentine |Catherine |
-|Myrmecological News             |Carlos    |Magdalena |
-|Proc B                          |Federico  |Carlos    |
-|Journal of Evolutionary Biology |Richard   |Yannick   |
-|Cell                            |Magdalena |Federico  |
-|Nature Methods                  |Raphaella |Emeline   |
+|Bioinformatics                  |Yannick   |Valentine |
+|Plos Comp Biol                  |Federico  |Carlos    |
+|PNAS                            |Catherine |Raphaella |
+|Cell                            |Catherine |Richard   |
+|Nature                          |Magdalena |Federico  |
+|Science                         |Raphaella |Carlos    |
+|Evolution                       |Federico  |Emeline   |
+|eLife                           |Priyam    |Carlos    |
+|Plos Biol                       |Raphaella |Iwo       |
+|Insectes Sociaux                |Magdalena |Richard   |
+|Nature Methods                  |Priyam    |Marian    |
+|Current Biology                 |Yannick   |Raphaella |
+|TREE                            |Priyam    |Federico  |
+|Proc B                          |Iwo       |Priyam    |
+|MBE                             |Richard   |Anindita  |
+|Trends in Genetics              |Anindita  |Yannick   |
+|Mol Ecol                        |Marian    |Catherine |
+|Genome Biol                     |Magdalena |Anindita  |
+|Genome Res                      |Carlos    |Valentine |
+|GBE                             |Catherine |Emeline   |
+|Journal of Evolutionary Biology |Valentine |Emeline   |
+|Plos Genet                      |Valentine |Marian    |
+|Nature Comms                    |Yannick   |Iwo       |
+|Am Nat                          |Marian    |Anindita  |
+|Myrmecological News             |Iwo       |Magdalena |
+|Nature Genetics                 |Emeline   |Richard   |
 
 
 
 
-|person    |journal                                                           |
-|:---------|:-----------------------------------------------------------------|
-|Anindita  |GBE, Science, Genome Res, Nature                                  |
-|Carlos    |Nature Genetics, TREE, Myrmecological News, Proc B                |
-|Catherine |Science, Nature Genetics, Insectes Sociaux, Am Nat                |
-|Emeline   |Plos Genet, Plos Comp Biol, MBE, Nature Methods                   |
-|Federico  |Insectes Sociaux, Plos Biol, Proc B, Cell                         |
-|Iwo       |MBE, Nature Comms, Bioinformatics, Plos Biol                      |
-|Magdalena |Bioinformatics, Cell, Trends in Genetics, Myrmecological News     |
-|Marian    |PNAS, Nature, eLife, Plos Comp Biol                               |
-|Priyam    |Current Biology, Trends in Genetics, Nature Comms, GBE            |
-|Raphaella |Evolution, Genome Res, Nature Methods, Plos Genet                 |
-|Richard   |Mol Ecol, Journal of Evolutionary Biology, PNAS, Genome Biol      |
-|Valentine |eLife, Genome Biol, Am Nat, Mol Ecol                              |
-|Yannick   |Evolution, Current Biology, TREE, Journal of Evolutionary Biology |
+|person    |journal                                                                 |
+|:---------|:-----------------------------------------------------------------------|
+|Anindita  |Trends in Genetics, MBE, Genome Biol, Am Nat                            |
+|Carlos    |Genome Res, Plos Comp Biol, Science, eLife                              |
+|Catherine |PNAS, Cell, GBE, Mol Ecol                                               |
+|Emeline   |Nature Genetics, Evolution, GBE, Journal of Evolutionary Biology        |
+|Federico  |Plos Comp Biol, Evolution, Nature, TREE                                 |
+|Iwo       |Proc B, Myrmecological News, Plos Biol, Nature Comms                    |
+|Magdalena |Nature, Insectes Sociaux, Genome Biol, Myrmecological News              |
+|Marian    |Mol Ecol, Am Nat, Nature Methods, Plos Genet                            |
+|Priyam    |eLife, Nature Methods, TREE, Proc B                                     |
+|Raphaella |Science, Plos Biol, PNAS, Current Biology                               |
+|Richard   |MBE, Cell, Insectes Sociaux, Nature Genetics                            |
+|Valentine |Journal of Evolutionary Biology, Plos Genet, Bioinformatics, Genome Res |
+|Yannick   |Bioinformatics, Current Biology, Nature Comms, Trends in Genetics       |
+
+
+
+
+Coding Pairs
+|person1   |person2               |
+|:---------|:---------------------|
+|Carlos    |Anindita              |
+|Priyam    |Federico              |
+|Emeline   |Iwo                   |
+|Richard   |Catherine             |
+|Valentine |Marian                |
+|Magdalena |Yannick and Raphaella |
+
+
+
+
