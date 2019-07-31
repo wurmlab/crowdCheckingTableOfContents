@@ -11,7 +11,7 @@ journals.raw <- "Mol Ecol, Plos Genet, PNAS, Science, Nature, Nature Genetics,
 
 library(reshape2)
 library(knitr)
-output.file <- paste(Sys.Date(), "-TableOfContentsDuties.md", sep="")
+output.file <- paste(Sys.Date(), "-TableOfContentsDuties.md", sep = "")
 
 people   <- unlist(strsplit(x     = people.raw,
                             split = ",\\s*",
@@ -51,8 +51,8 @@ if (any(assignments[,'person1'] == assignments[,'person2'])) {
 
 file.create(output.file)
 
-write(x = kable(assignments, format="markdown"), file= output.file)
-write(x = "\n\n\n",                              file= output.file, append=TRUE)
+write(x = kable(assignments, format="markdown"), file = output.file)
+write(x = "\n\n\n",                              file = output.file, append = TRUE)
 
 ## show assignments per person:
 assignments.long <- melt(assignments)
@@ -61,11 +61,10 @@ colnames(assignments.long) <- c("journal", "number", "person")
 assignments.perperson <- dcast(data       = assignments.long,
                              formula      = person~"journal",
                              value.var    = "journal",
-                             fun.aggregate=function(x) {paste(x, collapse=", ")}
+                             fun.aggregate = function(x) {paste(x, collapse = ", ")}
                              )
 
 
-write(x      = kable(assignments.perperson, format="markdown"),
+write(x      = kable(assignments.perperson, format = "markdown"),
       file   = output.file,
       append = TRUE)
-
