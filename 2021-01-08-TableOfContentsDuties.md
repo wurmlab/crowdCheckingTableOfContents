@@ -57,13 +57,13 @@ Coding Pairs
 
 
 
-|person1   |person2         |
-|:---------|:---------------|
-|Magdalena |Marian          |
-|Raph      |Priyam          |
-|Alicja    |Federico        |
-|Raphaella |Anindita        |
-|Gabriel   |Guy and Yannick |
+|person1   |person2               |
+|:---------|:---------------------|
+|Guy       |Marian                |
+|Raph      |Priyam                |
+|Alicja    |Federico              |
+|Raphaella |Anindita              |
+|Gabriel   |Magdalena and Yannick |
 
 
 
