@@ -1,6 +1,6 @@
 
 
-people.raw <- "Yannick, Marian, Federico, Raphaella, Gabriel, Alicja, Roddy, Phoebe, Kenny, Carlo, Diego, Aravind"
+people.raw <- "Yannick, Marian, Federico, Gabriel, Alicja, Roddy, Phoebe, Kenny, Carlo, Diego, Aravind"
 
 journals.raw <- "Mol Ecol, Plos Genet, PNAS, Science, Nature, Nature Genetics,
                  Plos Biol, Plos Comp Biol, eLife, Insectes Sociaux, MBE, Cell,
